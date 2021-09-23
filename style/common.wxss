@@ -1,0 +1,58 @@
+/* flex布局 */
+.g-f,.g-f-ac,.g-f-ae,.g-f-as,.g-f-ajc,.g-f-r-w,.g-f-jsb,.g-f-jsa{
+	display: flex;
+}
+.g-f-ac,.g-f-ajc,.g-f-jsb,.g-f-jsa{
+	align-items: center;
+}
+.g-f-ae{
+	align-items: flex-end;
+}
+.g-f-as{
+	align-items: flex-start;
+}
+.g-f-ajc{
+	justify-content: center;
+}
+.g-f-jsb{
+	justify-content: space-between;
+}
+.g-f-jsa{
+	justify-content: space-around;
+}
+.g-f1{
+	flex: 1;
+}
+.g-f-column{
+	flex-direction: column;
+}
+.g-f-r-w{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.back-to-top{
+	width: 82rpx;
+	height: 80rpx;
+	position: fixed;
+	right: 20rpx;
+	bottom: 56rpx;
+}
+/* 拉新活动 */
+.image-scale-fill {
+  width: 100%;
+  height: 100%;
+}
+.navigator-back {
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -15rpx;
+  left: 42rpx;
+}
+.box-shadow {
+  background: linear-gradient(180deg, #FBF8E8 0%, #FFFFFF 100%);
+  box-shadow: 0px 0px 10rpx 0px rgba(0,0,0,0.05);
+  border-radius: 20rpx;
+}
