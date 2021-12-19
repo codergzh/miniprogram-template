@@ -48,6 +48,6 @@ function checkStatus (res) {
 }
 
 module.exports = {
-    request,
-	checkStatus
+  http,
+  checkStatus,
 }

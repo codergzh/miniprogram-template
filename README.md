@@ -38,9 +38,11 @@
 ├── utils                               // 工具目录
 │   ├── utils.js                          // 工具文件 
 │   └── goToPage.js                       // 封装的页面跳转
-├── app.js
-├── app.json
-├── app.wxss                      		 
+├── app.js								// 入口文件
+├── app.json							// 配置文件
+├── app.wxss   							// 全局的样式文件
+├── project.config.json    				// 保存开发工具配置项
+├── sitemap.json    		 			// 网站地图，可以对小程序进行seo优化，让搜索排名靠前
 └── README.md                           // 项目介绍文件
 ```
 
